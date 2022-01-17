@@ -21,17 +21,17 @@ int main() {
 
                 result.push_back(input_message[i]);
 
-                }
-                }
+            }
+        }
                 if (input_message[i] == 'e' || input_message[i] == 'u') {
 
                     result.push_back(input_message[i]);
 
-                    }
-                    }
+                }
+    }
                     for (int i = 0; i < result.size(); i++) {
 
                         std::cout << result[i];
-                        
-                        }
-                        }
+
+                    }
+}
